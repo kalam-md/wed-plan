@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #fbf7f2;
+  --color-cream: #f4ece2;
+  --color-beige: #e6d9c9;
+  --color-blush: #f3d9d9;
+  --color-dusty: #c98f94;
+  --color-dusty-dark: #a8696f;
+  --color-ink: #4a3b3b;
+  --color-muted: #8f7f7c;
+  --font-sans: "Nunito Sans", system-ui, sans-serif;
+  --font-serif: "Fraunces", Georgia, serif;
+}
+
+body { background: var(--color-ivory); color: var(--color-ink); font-family: var(--font-sans); }
+:focus-visible { outline: 2px solid var(--color-dusty); outline-offset: 2px; }
